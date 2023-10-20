@@ -1,0 +1,6 @@
+{
+    "requires": [ "bare-metal","rtos-api","sd","filesystem","fat_chan"],
+    "target_overrides": {
+        "*": { "target.components_add": [ "SD" ] }
+    }
+}
